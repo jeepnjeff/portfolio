@@ -1,4 +1,3 @@
-
 // Imports
 @import 'bootstrap-custom';
 // variables
@@ -63,17 +62,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   }
 }
  .logo {
-margin: -25px 0px 0px -15px;
-height: 95px;
-}
-
-@media (max-width: 768px){
-  .logo {
-  margin: -25px 0px 0px -15px;
-  height: 50px;
-}
-}
-
+margin: -25px 0px 0px -30px;
+ }
 
 .navbar-inverse .navbar-brand {
   color: #fec810;
@@ -104,7 +94,7 @@ height: 95px;
 
 .hero {
   background-image: url("/images/herobw.JPG");
-  height: 975px;
+  height: 750px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -216,7 +206,7 @@ height: 95px;
   margin: 5% 6% 30%;
   font-size: 1.3em;
   color: #6c757d;
-  font-weight: lighter;
+  font-weight: 300;
 }
 // End of services Section
 
@@ -340,11 +330,10 @@ float: left;
     margin-top:5%;
     margin-bottom: 3%;
   }
-  .about-box-p {
-    margin: 5% 6% 10% 0%;
-    font-size: 1.3em;
-    color: #6c757d;
-    font-weight: lighter;
+.h4-title {
+ color: #6c757d;
+ margin-top: 3%;
+ padding-bottom: 7%;
 }
 .contact-title {
   font-family: Lobster;
@@ -385,24 +374,15 @@ background-color: #ccc;
   margin: 15px 0px 15px 0px;
 }
 
-.submit-box {
-justify-content: center;
-align-items: center;
-text-align: center;
-}
-
 .submit-button {
-  margin: 15px 0px 40px 0px;
-  padding: 10px 10px 10px 10px;
+  margin: 15px 0px 30px 0px;
+  padding: 0px 10px 10px 10px;
   color: #fff;
   background-color: rgba(254, 200, 16, 0.9);
   border-color: #c19400;
   font-family: $font-default;
   font-size: 2em;
   font-weight: bold;
-
-
-
 
 
   &:hover {
